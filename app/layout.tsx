@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Սարգիսի և Գայանեի հարսանեկան հրավիրատոմս",
     description: "Հարսանեկան հրավիրատոմս",
-    url: "https://sargis-gayane.vercel.app",
+    url: "https://sargis-gayane-wedding.vercel.app",
     siteName: "Սարգիս և Գայանե",
     images: [
       {

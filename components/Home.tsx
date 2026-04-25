@@ -249,6 +249,9 @@ export function Home() {
           <Program />
         </div>
 
+        {/* hethashxvark */}
+        <TimeBox />
+        
         {/* dress code */}
         <div className=" text-vrayi">
           <motion.h3
@@ -273,8 +276,6 @@ export function Home() {
           />
         </div>
 
-        {/* hethashxvark */}
-        <TimeBox />
 
         {/* errord mas vazox tox + nkar */}
         <div className=" mt-20 relative w-full  text-3xl text-vrayi ">

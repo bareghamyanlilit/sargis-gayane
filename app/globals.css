@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family:"SHK_Dzeragir" ;
+  src: url('/font/SHK_Dzeragir.woff2');
+}
+.FontSHK_Dzeragir{
+  font-family: "SHK_Dzeragir";
+  
+}
+
+@font-face {
+  font-family:"BabylonicaRegular" ;
+  src: url('/font/Babylonica-Regular.ttf');
+}
+.FontBabylonicaRegular{
+  font-family: "BabylonicaRegular";
+  
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee-2 {
+  animation: marquee2 20s linear infinite;
+}
+
+.text-sovorakan{
+  color: #580000;
+}
+.text-vrayi {
+  color: #580000;
+}
+.text-taki {
+  color: #580000 ;
+}
+.bg-guyn {
+  background: #580000;
+}
+.border-guyn {
+  border-color: #580000;
+}
+
+
+
+
+
+/* ....................CRAR................ */
+
+
+@media (min-width: 768px) {
+  @keyframes bounceY {
+    0% {
+      transform: translateY(0);
+      width: 560px;
+      height: 360px;
+      z-index: 6;
+    }
+    50% {
+      transform: translateY(-500px);
+      z-index: 6;
+    }
+    100% {
+      width: 560px;
+      height: 360px;
+      z-index: 50;
+    }
+  }
+
+  .animate-bounceY {
+    animation: bounceY 2s ease;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes bounceYB {
+    0% {
+      top: 10%;
+    }
+    100% {
+      top: -100%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYB {
+    animation: bounceYB 2s ease forwards;
+  }
+
+  @keyframes bounceYT {
+    0% {
+      bottom: -50%;
+    }
+    100% {
+      bottom:-180%;
+      display: none;
+    }
+  }
+
+  .animate-bounceYT {
+    animation: bounceYT 2s ease forwards;
+  }
+}

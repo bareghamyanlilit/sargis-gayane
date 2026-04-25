@@ -251,7 +251,14 @@ export function Home() {
 
         {/* hethashxvark */}
         <TimeBox />
-        
+
+          <Image
+            src="/img3.jpg"
+            width={500}
+            height={500}
+            alt="jamanak"
+            className="w-full "
+          />
         {/* dress code */}
         <div className=" text-vrayi">
           <motion.h3
@@ -267,13 +274,7 @@ export function Home() {
           >
             {txt2}
           </motion.p>
-          <Image
-            src="/img3.jpg"
-            width={500}
-            height={500}
-            alt="jamanak"
-            className="w-full "
-          />
+          
         </div>
 
 

@@ -27,7 +27,7 @@ export const dateTimeBox: any = new Date("2026-08-08T11:00:00");
 
 export const calendar: any = [
   ["Ուրբաթ", "Շաբաթ", "Կիրակի"],
-  ["07", "08", "06"],
+  ["07", "08", "09"],
 ];
 
 export const txt1 =
